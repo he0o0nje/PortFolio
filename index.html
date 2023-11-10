@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHJ's PortFolio</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <script>
+    $(function () {
+      new fullpage(".container", {
+        verticalCentered: false,
+        scrollBar: true,
+        anchors: ['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5', 'anchor6', 'anchor7'],
+        menu: '.side_nav',
+        scrollingSpeed: 800
+      });
+    });
+  </script>
+  <script src="js/side_nav.js"></script>
+  <script src="js/webpage.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/mobile.js"></script>
+  <script>
+    $(function () {
+      $('.mouse').click(function () {
+        var offset = $('#first_port').offset();
+        $('html, body').animate({ scrollTop: offset.top }, 1000);
+      });
+    });
+  </script>
+
+</head>
+
+<body style="overflow-y: scroll;">
+
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- 우측 버튼 -->
+  <ul id="menu">
+    <li data-menuanchor="anchor1">
+      <a href="#anchor1">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor2">
+      <a href="#anchor2">
+        <i class="fas fa-cookie-bite"></i>
+        <span>Project 01</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor3">
+      <a href="#anchor3">
+        <i class="fas fa-glasses"></i>
+        <span>Project 02</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor4">
+      <a href="#anchor4">
+        <i class="fas fa-book"></i>
+        <span>Project 03</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor5">
+      <a href="#anchor5">
+        <i class="fas fa-tshirt"></i>
+        <span>Project 04</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor6">
+      <a href="#anchor6">
+        <i class="fas fa-users"></i>
+        <span>Project 05</span>
+      </a>
+    </li>
+    <li data-menuanchor="anchor7">
+      <a href="#anchor7">
+        <i class="fas fa-address-card"></i>
+        <span>About Me</span>
+      </a>
+    </li>
+  </ul>
+
+
+  <div class="container">
+
+    <div class="inner-container section">
+      <div class="shape">
+        <div class="title">
+          <h2></h2>
+          <p></p>
+
+        </div>
+      </div>
+
+      <!--//mouse-->
+      <div class="mouse">
+        <div class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </div>
+        <p>Scroll Down</p>
+      </div>
+
+    </div>
+
+
+    <div class="section">
+      <div class="section_wrap">
+        <div class="explain">
+          <h1 data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">PROJECT
+            01</h1>
+          <h2 data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine" data-aos-delay="100">DanoShop
+          </h2>
+          <h3 data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="100">React
+            Website (Redux / Router)<br />
+            TypeScript</h3>
+          <h4 data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="100">Point
+            Color</h4>
+          <ul data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine" data-aos-delay="100"
+            class="color_03">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">다이어트 샵
+            DanoShop
+            웹사이트입니다.<br><br>
+
+            TypeScript를 활용하여 JavaScript에서 일어날 수 있는
+            버그를 15% 가량 줄였습니다.<br><br>
+
+            메인페이지에 상품, 프로모션 등 제품 정보를 제공합니다.<br><br>
+
+            서브 페이지는 실제 쇼핑몰처럼 상품을 카트에 담거나 <br>
+            다양한 상세페이지로 이동하도록 하기 위해 <br><br>
+
+            react-router-dom의 useParams, useNavigate, <br>
+            Route, Router, Link, Routes를 사용했습니다. </p>
+
+          <button class="btn_3" onclick="window.open('https://he0o0nje.github.io/Danoshop-clone-ts/');">MAIN
+            PAGE</button>
+
+        </div>
+
+        <div class="webpage03">
+          <img src="img/Danoshop-clone-ts.png" alt="다노샵">
+          <div class="bgbox" onclick="window.open('https://he0o0nje.github.io/Danoshop-clone-ts/');">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section_wrap">
+        <div class="explain">
+          <h1 data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">PROJECT
+            02</h1>
+          <h2 data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine" data-aos-delay="100">Yes24
+          </h2>
+          <h3 data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="100">
+            Book Store (Open API)</h3>
+          <h4 data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="100">Point
+            Color</h4>
+          <ul class="color_02" data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">국내 최대 도서 사이트
+            Yes24 웹사이트입니다.<br>
+            페이지 내의 도서들은 Kakao Open Api를 사용하여 <br>구현하였습니다.<br><br>
+
+            도서사이트의 특징인 많은 정보로 인하여 복잡한 레이아웃을
+            본 모습 그대로 표현했습니다.<br><br>
+
+            더 많은 정보를 제공하고자
+            jQuery를 활용하여 다양한 인터렉션 요소를 배치하였습니다.<br><br>
+
+            도서를 구매할 수 있는 Sub Page도 함께 제작하였습니다.</p>
+          <!--  -->
+
+          <button class="btn_2" onclick="window.open('https://he0o0nje.github.io/Yes24-clone/');">MAIN
+            PAGE</button>
+          <button class="btn_2" onclick="window.open('https://he0o0nje.github.io/Yes24-clone/sub.html');">SUB
+            PAGE</button>
+
+        </div>
+
+        <div class="webpage02">
+          <div class="web_image"><img src="img/Yes24-clone.png" alt="예스24"></div>
+          <div class="bgbox" onclick="window.open('https://he0o0nje.github.io/Yes24-clone/');">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div id="first_port" class="section_wrap">
+        <div class="explain">
+          <h1 data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">PROJECT
+            03</h1>
+          <h2 data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine" data-aos-delay="100">SleepEyes
+          </h2>
+          <h3 data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="100">
+            Responsive Website</h3>
+          <h4 data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="100">Point
+            Color</h4>
+          <ul class="color_01" data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">수면 최적화 기기
+            SleepEyes
+            웹사이트입니다.<br>
+            모바일, 태블릿, PC 사용자에 맞게 반응하도록 미디어쿼리를 적용한 반응형<br> 웹페이지입니다.<br><br>
+
+            베이스 컬러는 이미지와 어울리는 Gray 계열을 이용하여<br>
+            이미지에 집중도를 높였습니다. <br>포인트로 Black & Navy를 섞어 차분한 느낌을 주었습니다.
+            <br><br>
+
+            Sub Page는 소개 형식으로 제작하여 더욱 상세하게
+            정보를 제공하고 있습니다.<br><br>
+          </p>
+
+          <button class="btn_1" onclick="window.open('https://he0o0nje.github.io/SleepEyes-clone/');">
+            MAIN PAGE</button>
+          <button class="btn_1" onclick="window.open('https://he0o0nje.github.io/SleepEyes-clone/sub.html');">
+            SUB PAGE</button>
+
+        </div>
+
+        <div class="webpage01">
+          <div class="web_image"><img src="img/SleepEyes-clone.png" alt="슬립아이즈"></div>
+          <div class="bgbox" onclick="window.open('https://he0o0nje.github.io/SleepEyes-clone/');">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+        <div class="mobile mobile_01">
+          <div>
+            <img src="img/SleepEyes-clone_(iPhone 12 Pro).png" alt="exhibiz_responsive">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section_wrap">
+        <div class="explain">
+          <h1 data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">PROJECT
+            04</h1>
+          <h2 data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine" data-aos-delay="100">Kream
+          </h2>
+          <h3 data-aos="fade-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-delay="100">Shopping
+            Mall (Ajax / Json)</h3>
+          <h4 data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="100">Point
+            Color</h4>
+          <ul data-aos="fade-left" data-aos-duration="400" data-aos-easing="ease-in-sine" data-aos-delay="100"
+            class="color_04">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">쇼핑몰
+            Kream 사이트입니다.<br>
+
+            심플한 레이아웃으로 상품에 집중된 웹페이지입니다.<br><br>
+
+            쇼핑몰의 특성에 맞게 배경색을 흰색으로 하여 상품의 이미지가 눈에 잘 띄도록 제작하였습니다. <br><br>
+
+            JSON를 활용하여 상품 이미지 및 제품명, 가격 등을 유지보수에 용이하도록 하였습니다.
+            <br><br>
+
+            상품 상세페이지인 Sub Page도 함께 제작하였습니다.<br><br>
+          </p>
+
+          <button class="btn_4" onclick="window.open('https://he0o0nje.github.io/Kream-clone/');">MAIN
+            PAGE</button>
+          <button class="btn_4" onclick="window.open('https://he0o0nje.github.io/Kream-clone/sub.html');">SUB
+            PAGE</button>
+        </div>
+
+        <div class="webpage04">
+          <img src="img/Kream-clone.png" alt="쇼핑몰">
+          <div class="bgbox" onclick="window.open('https://he0o0nje.github.io/Kream-clone/');">
+            <i class="fas fa-search-plus"></i>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section_wrap">
+        <div class="explain">
+          <h2 data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100">자유게시판
+          </h2>
+          <h3 data-aos="fade-left" data-aos-duration="700" data-aos-easing="ease-in-sine" data-aos-delay="100">Community
+            Forum <br>
+            (React / TypeScript / Node.js / MySQL)</h3>
+
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-sine" data-aos-delay="100"
+            style="margin-top: 40px;">
+            MySQL로 데이터베이스를 제작한 후, Node.js를 통해<br>
+            데이터를 처리하여 자유게시판을<br>만들었습니다.
+            <br><br>
+            데이터 베이스의 기본 요소인 CRUD 기능을 구현하였습니다.
+            <br><br>
+            게시글을 각각 조회할 수 있으며 '글쓰기' 버튼을 통해 게시글 작성이 가능하고,
+            올라간 글은<br>수정 및 삭제 가능하게 구현하였습니다.
+          </p>
+
+          <button class="btn_5"
+            onclick="window.open('https://github.com/he0o0nje/Board/tree/main/board');">FRONT</button>
+          <button class="btn_5"
+            onclick="window.open('https://github.com/he0o0nje/Board/tree/main/server');">SERVER</button>
+
+        </div>
+
+        <div class="video">
+          <video muted autoplay loop>
+            <source src="img/Board.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+          </video>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="last_wrap">
+        <div class="introduce">
+          <h1 data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="100">About Me
+          </h1>
+          <div class="photo" data-aos="fade-right" data-aos-duration="700" data-aos-easing="ease-in-sine"
+            data-aos-delay="100"><img src="img/Profile.jpg" alt="사진"></div>
+
+          <div class="contact" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <h3>신헌제 <span>Shin HeonJe</span></h3>
+            <table>
+              <tr>
+                <th>Birth</th>
+                <td>1998.09.17</td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td>Paldal-gu, Suwon</td>
+              </tr>
+              <tr>
+                <th>Phone</th>
+                <td>010 9770 8253</td>
+              </tr>
+              <tr>
+                <th>E-mail</th>
+                <td>dudwogjswp@naver.com</td>
+              </tr>
+              <tr>
+                <th>Graduate</th>
+                <td>단국대학교 수학과 /<br> 금융공학 연계전공
+                  <br>2017.03 ~ 2023.02
+                </td>
+
+              </tr>
+
+            </table>
+
+          </div>
+
+        </div>
+
+
+        <div class="bg_box" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine"
+          data-aos-delay="100">
+          <h3>Developer</h3>
+          <img src="img/line_gr.png" alt="graph">
+        </div>
+
+        <div class="career">
+          <div class="box" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <h3>TRAINING</h3>
+            <ul>
+              <li>2023 캠퍼스 SW 아카데미 TABA 2기
+                <br>T-Max AI, BigData Academy
+                <br>(2023.03 ~ 2023.06)
+              </li>
+              <br>
+              <li>이젠컴퓨터아카데미
+                <br>프론트엔드 개발 및 실무프로젝트 구현 과정<br>(2023.07 ~ 2023.12)
+              </li>
+            </ul>
+            <h3>LICENCE</h3>
+            <ul>
+              <li><span class="bold">2017</span>운전면허 1종 보통</li>
+              <li><span class="bold">2018</span>정보처리기능사</li>
+            </ul>
+
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
+            <h3>SKILL</h3>
+            <ul id="g1" class="graph">
+              <li> <span style="width: 90%">Javascript</span></li>
+              <li> <span style="width: 80%">Typescript</span></li>
+              <li> <span style="width: 80%">React</span></li>
+              <li> <span style="width: 80%">React-Native</span></li>
+              <li> <span style="width: 70%">HTML / CSS</span></li>
+              <li> <span style="width: 70%">Ajax / Json</span></li>
+              <li> <span style="width: 90%">Jquery</span></li>
+              <li> <span style="width: 70%">Open Api</span></li>
+              <li> <span style="width: 80%">Responsive Web</span></li>
+              <li> <span style="width: 80%">Node.js</span></li>
+              <li> <span style="width: 90%">MySQL</span></li>
+            </ul>
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
