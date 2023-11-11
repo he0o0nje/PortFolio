@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 #menu > li {
   width: 70px;
   height: 50px;
-  background-color: #142c8b;
+  background-color: #0f0f0f;
   text-align: center;
   vertical-align: middle;
   border-radius: 15px 0 0 15px;
@@ -76,19 +76,49 @@ body::-webkit-scrollbar {
   position: relative;
 }
 .section:nth-child(2) {
-  background-color: #fff;
+  background: linear-gradient(
+    to left,
+    #e2f6ff,
+    #edfaff 35%,
+    rgb(250, 254, 255) 75%,
+    #ffffff 100%
+  );
 }
 .section:nth-child(3) {
-  background-color: #fff;
+  background: linear-gradient(
+    to left,
+    #fff5cf,
+    #fff8dd 35%,
+    #fffcef 75%,
+    #fffef9 100%
+  );
 }
 .section:nth-child(4) {
-  background-color: #fff;
+  background: linear-gradient(
+    to left,
+    #cff1ff,
+    #def5ff 35%,
+    #f1faff 75%,
+    #fbfeff 100%
+  );
 }
 .section:nth-child(5) {
-  background-color: #fff;
+  background: linear-gradient(
+    to left,
+    #cff1ff,
+    #def5ff 35%,
+    #f1faff 75%,
+    #fbfeff 100%
+  );
 }
 .section:nth-child(6) {
-  background-color: #fff;
+  background: linear-gradient(
+    to left,
+    #cff1ff,
+    #def5ff 35%,
+    #f1faff 75%,
+    #fbfeff 100%
+  );
 }
 .section_wrap {
   width: 1663px;
@@ -686,7 +716,7 @@ body::-webkit-scrollbar {
 }
 .photo {
   width: 160px;
-  height: 200px;
+  height: 205px;
   background-color: #fff;
   margin: 70px 0 20px 65px;
   overflow: hidden;
