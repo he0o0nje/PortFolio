@@ -96,27 +96,27 @@ body::-webkit-scrollbar {
 .section:nth-child(4) {
   background: linear-gradient(
     to left,
-    #d5ccff,
-    #e7e1ff 35%,
-    #f1eeff 75%,
+    #e2dbff,
+    #f1eeff 35%,
+    #f8f7ff 75%,
     #ffffff 100%
   );
 }
 .section:nth-child(5) {
   background: linear-gradient(
     to left,
-    #edffd9,
-    #f3ffe4 35%,
-    #f9fff3 75%,
+    #b7ffc9,
+    #e8ffee 35%,
+    #f6fff9 75%,
     #ffffff 100%
   );
 }
 .section:nth-child(6) {
   background: linear-gradient(
     to left,
-    #cff1ff,
-    #def5ff 35%,
-    #f1faff 75%,
+    #d9f3ff,
+    #f3fbff 35%,
+    #fafdff 75%,
     #ffffff 100%
   );
 }
@@ -600,19 +600,19 @@ body::-webkit-scrollbar {
 /*point color*/
 
 .color_01 > li:first-child {
-  background-color: #fc6ba4;
+  background-color: #ffcd03;
   border: 1px solid #ccc;
   box-shadow: inset 2px 2px 5px #642a42;
   border-radius: 20px 20px 20px 10px;
 }
 .color_01 > li:nth-child(2) {
-  background-color: #33afe9;
+  background-color: #222;
   border: 1px solid #ccc;
   box-shadow: inset 2px 2px 5px #0c2a38;
   border-radius: 20px 20px 20px 10px;
 }
 .color_01 > li:last-child {
-  background-color: #e5eff7;
+  background-color: #fff;
   border: 1px solid #ccc;
   box-shadow: inset 2px 2px 5px #686d70;
   border-radius: 20px 20px 20px 10px;
