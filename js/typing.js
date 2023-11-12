@@ -3,7 +3,7 @@ $(function () {
   const text = document.querySelector(".title h2");
   const text2 = document.querySelector(".title p");
   const content =
-    "WEB DEVELOPER\nJAVASCRIPT / JQUERY / JSON / AJAX / OPEN API / RESPONSIVE WEB / REACT / TYPESCRIPT";
+    "WEB DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / RESPONSIVE WEB / AJAX / JSON / JQUERY / OPEN API";
   let i = 0;
 
   function typing() {

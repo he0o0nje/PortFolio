@@ -30,19 +30,20 @@ body {
   position: absolute;
   display: block;
   top: 25%;
+  margin-top: 250px;
   width: 100%;
 }
 .container .title h2 {
   font-family: FontAwesome;
   font-size: 90px;
-  color: #fff;
+  color: #eee;
   letter-spacing: 10px;
   text-align: center;
 }
 .container .title p {
   font-family: FontAwesome;
   font-size: 25px;
-  color: #fff;
+  color: #333;
   letter-spacing: 0.05em;
   text-align: center;
   margin-top: 50px;

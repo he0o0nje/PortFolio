@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 #menu > li {
   width: 70px;
   height: 50px;
-  background-color: #0f0f0f;
+  background-color: #333;
   text-align: center;
   vertical-align: middle;
   border-radius: 15px 0 0 15px;
@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
   margin-top: 3px;
 }
 #menu > li:hover {
-  background-color: #2f4bff;
+  background-color: #000;
   padding-right: 10px;
 }
 #menu > li.active > a {
@@ -78,37 +78,37 @@ body::-webkit-scrollbar {
 .section:nth-child(2) {
   background: linear-gradient(
     to left,
-    #e2f6ff,
-    #edfaff 35%,
-    rgb(250, 254, 255) 75%,
+    #fff7d7,
+    #fffbeb 35%,
+    #fffef9 75%,
     #ffffff 100%
   );
 }
 .section:nth-child(3) {
   background: linear-gradient(
     to left,
-    #fff5cf,
-    #fff8dd 35%,
-    #fffcef 75%,
-    #fffef9 100%
+    #d9f3ff,
+    #f3fbff 35%,
+    #fafdff 75%,
+    #ffffff 100%
   );
 }
 .section:nth-child(4) {
   background: linear-gradient(
     to left,
-    #cff1ff,
-    #def5ff 35%,
-    #f1faff 75%,
-    #fbfeff 100%
+    #d5ccff,
+    #e7e1ff 35%,
+    #f1eeff 75%,
+    #ffffff 100%
   );
 }
 .section:nth-child(5) {
   background: linear-gradient(
     to left,
-    #cff1ff,
-    #def5ff 35%,
-    #f1faff 75%,
-    #fbfeff 100%
+    #edffd9,
+    #f3ffe4 35%,
+    #f9fff3 75%,
+    #ffffff 100%
   );
 }
 .section:nth-child(6) {
@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
     #cff1ff,
     #def5ff 35%,
     #f1faff 75%,
-    #fbfeff 100%
+    #ffffff 100%
   );
 }
 .section_wrap {
@@ -333,17 +333,17 @@ body::-webkit-scrollbar {
   margin: 0 0 40px 0;
   padding: 10px;
   width: 28%;
-  background-color: #98cde6;
+  background-color: #ffe684;
 }
 
 .section:nth-child(3) > .section_wrap > .explain > h1 {
-  background-color: #ffe684;
+  background-color: #98cde6;
 }
 .section:nth-child(4) > .section_wrap > .explain > h1 {
-  background-color: #caae95;
+  background-color: #cbc5ad;
 }
 .section:nth-child(5) > .section_wrap > .explain > h1 {
-  background-color: #cbc5ad;
+  background-color: #bcf5a9;
 }
 .section:nth-child(6) > .section_wrap > .explain > h1 {
   background-color: #c7c8ca;
@@ -351,18 +351,18 @@ body::-webkit-scrollbar {
 
 .explain > h2 {
   font-size: 40px;
-  color: #33afe9;
+  color: #ffcd03;
   margin: 0 10px 10px 0;
 }
 
 .section:nth-child(3) > .section_wrap > .explain > h2 {
-  color: #ffcd03;
+  color: #33afe9;
 }
 .section:nth-child(4) > .section_wrap > .explain > h2 {
-  color: #a9764d;
+  color: #151515;
 }
 .section:nth-child(5) > .section_wrap > .explain > h2 {
-  color: #151515;
+  color: #04b404;
 }
 .section:nth-child(6) > .section_wrap > .explain > h2 {
   color: #000000;
@@ -413,7 +413,7 @@ body::-webkit-scrollbar {
   z-index: 1;
 }
 .btn_1 {
-  background: linear-gradient(to left, #1089c2, #33afe9);
+  background: linear-gradient(to top, #61380b 0%, #8a4b08 100%);
 }
 
 .btn_1:after {
@@ -440,7 +440,7 @@ body::-webkit-scrollbar {
 }
 
 .btn_2 {
-  background-image: linear-gradient(to right, #ffcd03, #ffda47);
+  background-image: linear-gradient(to right, #0b3861, #084b8a);
 }
 
 .btn_2:after {
@@ -467,7 +467,7 @@ body::-webkit-scrollbar {
 }
 
 .btn_3 {
-  background: linear-gradient(to top, #a9764d 0%, #ac5f20 100%);
+  background: linear-gradient(to left, #1089c2, #33afe9);
 }
 .btn_3 {
   background-color: #a7a7af;
