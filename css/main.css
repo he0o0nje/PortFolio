@@ -340,10 +340,10 @@ body::-webkit-scrollbar {
   background-color: #98cde6;
 }
 .section:nth-child(4) > .section_wrap > .explain > h1 {
-  background-color: #cbc5ad;
+  background-color: #d1a7f8;
 }
 .section:nth-child(5) > .section_wrap > .explain > h1 {
-  background-color: #bcf5a9;
+  background-color: #b6eca2;
 }
 .section:nth-child(6) > .section_wrap > .explain > h1 {
   background-color: #c7c8ca;
@@ -467,7 +467,7 @@ body::-webkit-scrollbar {
 }
 
 .btn_3 {
-  background: linear-gradient(to left, #1089c2, #33afe9);
+  background: linear-gradient(to left, #6a0888, #8904b1);
 }
 .btn_3 {
   background-color: #a7a7af;
