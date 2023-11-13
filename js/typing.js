@@ -3,7 +3,7 @@ $(function () {
   const text = document.querySelector(".title h2");
   const text2 = document.querySelector(".title p");
   const content =
-    "WEB DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / RESPONSIVE WEB / AJAX / JSON / JQUERY / OPEN API";
+    "FE DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / RESPONSIVE WEB / AJAX / JSON / JQUERY / OPEN API";
   let i = 0;
 
   function typing() {
@@ -17,11 +17,11 @@ $(function () {
         text2.innerHTML += txt;
       }
     }
-    if (i === 96) {
+    if (i === content.length) {
       // i가 9일 때 clearInterval을 호출하여 멈춥니다.
       clearInterval(intervalId);
     }
   }
 
-  const intervalId = setInterval(typing, 70);
+  const intervalId = setInterval(typing, 50);
 });
