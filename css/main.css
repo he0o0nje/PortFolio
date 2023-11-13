@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
 .section_wrap > .explain {
   width: 38%;
   height: 100%;
-  padding: 150px 0;
+  padding: 130px 0;
 }
 
 /* 마우스 */
@@ -414,7 +414,7 @@ body::-webkit-scrollbar {
   font-size: 14px;
   width: 80%;
   height: auto;
-  margin: 0 0 80px 0;
+  margin: 0 0 60px 0;
   line-height: 24px;
   font-family: "Nanum Gothic", sans-serif;
 }
@@ -967,6 +967,7 @@ table td {
   position: relative;
   overflow: hidden;
   margin-top: 200px;
+  left: 70px;
 }
 .video6 {
   margin-top: 0px;
@@ -975,7 +976,6 @@ table td {
 .video video {
   width: 100%;
   height: fit-content;
-  margin-left: 50px;
 }
 .video6 video {
   height: 100%;
