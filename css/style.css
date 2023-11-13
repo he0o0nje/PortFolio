@@ -36,14 +36,14 @@ body {
 .container .title h2 {
   font-family: FontAwesome;
   font-size: 90px;
-  color: #eee;
+  color: #fff;
   letter-spacing: 10px;
   text-align: center;
 }
 .container .title p {
   font-family: FontAwesome;
   font-size: 25px;
-  color: #333;
+  color: #fff;
   letter-spacing: 0.05em;
   text-align: center;
   margin-top: 50px;
@@ -54,7 +54,7 @@ body {
   position: relative;
 }
 
-.random-shape:after {
+/* .random-shape:after {
   font-family: FontAwesome;
   content: "\f005";
 }
@@ -962,4 +962,4 @@ body {
 .stop-shape {
   -webkit-animation-play-state: paused;
   animation-play-state: paused;
-}
+} */
