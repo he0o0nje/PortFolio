@@ -966,6 +966,12 @@ table th {
 table td {
   vertical-align: middle;
 }
+table td .github {
+  color: #fff;
+}
+table td .github:hover {
+  text-decoration: underline;
+}
 
 .bg_box {
   width: 65%;
