@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
   position: relative;
 }
 .section_wrap > .explain {
-  width: 38%;
+  width: 45%;
   height: 100%;
   padding: 130px 0;
 }
@@ -379,7 +379,7 @@ body::-webkit-scrollbar {
 }
 .section:nth-child(7) > .section_wrap > .explain > h1 {
   background-color: #629ee2;
-  /* background-color: #ccc; */
+  width: 24%;
 }
 
 .explain > h2 {
@@ -402,7 +402,6 @@ body::-webkit-scrollbar {
 }
 .section:nth-child(7) > .section_wrap > .explain > h2 {
   color: #0058af;
-  /* color: #333; */
 }
 
 .sub_title {
@@ -411,6 +410,7 @@ body::-webkit-scrollbar {
 .explain > h3 {
   font-size: 22px;
   font-weight: normal;
+  line-height: 25px;
 }
 .explain > h4 {
   font-size: 16px;
@@ -591,7 +591,6 @@ body::-webkit-scrollbar {
 }
 
 .btn_6 {
-  /* background-image: linear-gradient(to top, #3d3d3d 0%, #6d6d6d 100%); */
   background-image: linear-gradient(to left, #002850 0%, #0051a1 100%);
 }
 
