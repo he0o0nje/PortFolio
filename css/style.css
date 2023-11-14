@@ -7,6 +7,11 @@ body {
 }
 /* ---- reset ---- */
 
+::selection {
+  background-color: rgb(255, 39, 140);
+  color: #000;
+}
+
 body {
   margin: 0;
   background-color: #17182f;
