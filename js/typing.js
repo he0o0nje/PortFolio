@@ -3,7 +3,7 @@ $(function () {
   const text = document.querySelector(".title h2");
   const text2 = document.querySelector(".title p");
   const content =
-    "FE DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / REACT-NATIVE / AJAX / JSON / JQUERY / OPEN API / RESPONSIVE WEB / FIGMA / NODE.JS / MYSQL / TIBERO / DJANGO / PYTHON";
+    "FE DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / REACT-NATIVE / AJAX / JSON / JQUERY / OPEN API / RESPONSIVE WEB / NODE.JS / DJANGO / PYTHON / MYSQL / MONGODB / TIBERO / FIGMA";
   let i = 0;
 
   function typing() {

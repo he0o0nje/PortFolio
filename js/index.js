@@ -1,3 +1,13 @@
+$(function () {
+  $(".about_icon > li")
+    .mouseover(function () {
+      $(this).children(".burble").stop().fadeIn();
+    })
+    .mouseout(function () {
+      $(".burble").stop().fadeOut("slow");
+    });
+});
+
 /*마우스 올라가면 웹 페이지 이동하는 것 */
 
 $(function () {
