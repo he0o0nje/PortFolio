@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 #menu > li {
   width: 70px;
   height: 50px;
-  background-color: #333;
+  background-color: #001464;
   text-align: center;
   vertical-align: middle;
   border-radius: 15px 0 0 15px;
@@ -57,11 +57,11 @@ body::-webkit-scrollbar {
   margin-top: 3px;
 }
 #menu > li:hover {
-  background-color: #000;
+  background-color: #f5df7d;
   padding-right: 10px;
 }
 #menu > li.active > a {
-  color: #fff;
+  color: #000;
 }
 #menu > li.active > a > span {
   color: #fff;
@@ -281,19 +281,32 @@ body::-webkit-scrollbar {
   background-size: 100% 100%;
   z-index: 5;
   width: 235px;
-  height: 490px;
+  height: 483px;
   top: 40%;
-  left: 35%;
+  left: 33%;
   overflow: hidden;
+}
+.mobile_auvis {
+  top: 3%;
+  left: 57%;
+  width: 412px;
+  height: 868px;
 }
 .mobile > div {
   position: absolute;
   width: 220px;
   height: 460px;
-  top: 17px;
+  top: 13px;
   left: 8px;
   overflow: hidden;
   border-radius: 20px;
+}
+.mobile_auvis > div {
+  width: 385px;
+  height: 835px;
+  top: 20px;
+  left: 14px;
+  border-radius: 45px;
 }
 .mobile > div > img {
   width: 100%;
@@ -418,7 +431,7 @@ body::-webkit-scrollbar {
   line-height: 24px;
   font-family: "Nanum Gothic", sans-serif;
 }
-.explain > .auvis {
+.explain > .exp_auvis {
   width: 100%;
 }
 
@@ -954,7 +967,7 @@ table td {
   position: relative;
   height: 20px;
   line-height: 18px;
-  background-image: linear-gradient(to left, transparent, #1332bb);
+  background-image: linear-gradient(to left, transparent, #001464);
   padding: 0 10px;
   color: #fff;
   border-top-right-radius: 10px;
@@ -970,6 +983,7 @@ table td {
   left: 70px;
 }
 .video6 {
+  width: 100%;
   margin-top: 0px;
 }
 

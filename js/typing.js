@@ -3,7 +3,7 @@ $(function () {
   const text = document.querySelector(".title h2");
   const text2 = document.querySelector(".title p");
   const content =
-    "FE DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / RESPONSIVE WEB / AJAX / JSON / JQUERY / OPEN API";
+    "FE DEVELOPER\nJAVASCRIPT / TYPESCRIPT / REACT / REACT-NATIVE / AJAX / JSON / JQUERY / OPEN API / RESPONSIVE WEB / FIGMA / NODE.JS / MYSQL / TIBERO / DJANGO / PYTHON";
   let i = 0;
 
   function typing() {
@@ -23,5 +23,5 @@ $(function () {
     }
   }
 
-  const intervalId = setInterval(typing, 50);
+  const intervalId = setInterval(typing, 40);
 });
