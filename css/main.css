@@ -665,8 +665,9 @@ body::-webkit-scrollbar {
   top: 2px;
 }
 
-.btn_6 {
+.explain > .btn_6 {
   background-image: linear-gradient(to left, #002850 0%, #0051a1 100%);
+  width: 105px;
 }
 
 .btn_6:after {
