@@ -1,3 +1,4 @@
+// 홈 내 정보
 $(function () {
   $(".about_icon > li")
     .mouseover(function () {
@@ -6,6 +7,18 @@ $(function () {
     .mouseout(function () {
       $(".burble").stop().fadeOut("slow");
     });
+});
+
+// 사이드 탭 클릭
+$(function () {
+  $("#menu > li").click(function () {
+    $("#menu > li").css({ "background-color": "" });
+    $("#menu > li > a").css({ color: "" });
+    $("#menu > li > a > span").css({ color: "" });
+    $(this).css({ "background-color": "#f5df7d" });
+    $(this).find("a").css({ color: "#151515" });
+    $(this).find("a > span").css({ color: "#151515" });
+  });
 });
 
 /*마우스 올라가면 웹 페이지 이동하는 것 */
