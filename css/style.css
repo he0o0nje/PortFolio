@@ -57,16 +57,16 @@ canvas {
   position: absolute;
   display: block;
   top: 25%;
-  margin-top: 150px;
+  margin-top: 90px;
   width: 100%;
 }
 .container .title h1 {
   font-size: 12px;
   font-weight: 600;
-  background-color: #f5df7d;
+  background-color: #f5e395;
   color: #151515;
-  width: 9%;
-  margin: 0 auto 100px;
+  width: 190px;
+  margin: 0 auto 150px;
   padding: 5px 0;
   border-radius: 100px;
 }

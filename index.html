@@ -56,6 +56,18 @@
           ],
           menu: ".side_nav",
           scrollingSpeed: 800,
+          afterLoad: function (origin, destination, direction) {
+        // 현재 보여지는 section의 인덱스를 가져옴
+        var index = destination.index;
+
+        // #menu의 li에서 모든 active 클래스를 제거
+        $("#menu li").removeClass("active");
+
+        // 현재 보여지는 section의 인덱스에 해당하는 #menu의 li에 active 클래스 추가
+        $("#menu li[data-menuanchor='anchor" + (index + 1) + "']").addClass(
+          "active"
+        );
+      },
         });
       });
     </script>
@@ -169,13 +181,13 @@
         </div>
         <div class="shape">
           <div class="title">
-            <h1>PC 전체화면으로 봐주세요</h1>
-            <button
+            <h1>PC 창 크기 최대화로 봐주세요</h1>
+            <!-- <button
               class="fullscreen"
               title="전체화면"
               onclick="openFullScreenMode()"
             >
-              전체화면</button>
+              전체화면</button> -->
             </b>
             <h2></h2>
             <p></p>
