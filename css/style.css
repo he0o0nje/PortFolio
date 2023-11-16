@@ -57,8 +57,18 @@ canvas {
   position: absolute;
   display: block;
   top: 25%;
-  margin-top: 250px;
+  margin-top: 150px;
   width: 100%;
+}
+.container .title h1 {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #f5df7d;
+  color: #151515;
+  width: 9%;
+  margin: 0 auto 100px;
+  padding: 5px 0;
+  border-radius: 100px;
 }
 .container .title h2 {
   font-family: FontAwesome;

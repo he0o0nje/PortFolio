@@ -12,18 +12,55 @@ $(function () {
 // 사이드 탭 클릭
 $(function () {
   $("#menu > li").click(function () {
-    $("#menu > li").css({ "background-color": "" });
-    $("#menu > li > a").css({ color: "" });
-    $("#menu > li > a > span").css({ color: "" });
-    $(this).css({ "background-color": "#f5df7d" });
-    $(this).find("a").css({ color: "#151515" });
-    $(this).find("a > span").css({ color: "#151515" });
+    $("#menu > li").removeClass("active");
+    $("#menu > li > a").removeClass("active");
+    $("#menu > li > a > span").removeClass("active");
+    $(this).addClass("active");
+    $(this).find("a").addClass("active");
+    $(this).find("a > span").addClass("active");
   });
 });
 
+// 스크롤 반응 탭 활성화
+$(window).scroll(function () {
+  // 현재 스크롤의 높이값
+  var scroll = $(window).scrollTop();
+
+  // 내용의 높이값
+  var item1 = $(".section").offset().top;
+  var item1_end = item1 + $(".section").outerHeight();
+
+  // 스크롤의 높이가 내용의 높이값의 끝보다 작으면 탭 활성화
+  if (scroll < item1_end) {
+    $("#menu > li").removeClass("active");
+    $("#menu > li").addClass("active");
+  }
+});
+
+var doc = document.documentElement;
+// 전체화면 설정
+function openFullScreenMode() {
+  if (doc.requestFullscreen) doc.requestFullscreen();
+  else if (doc.webkitRequestFullscreen)
+    // Chrome, Safari (webkit)
+    doc.webkitRequestFullscreen();
+  else if (doc.mozRequestFullScreen)
+    // Firefox
+    doc.mozRequestFullScreen();
+  else if (doc.msRequestFullscreen)
+    // IE or Edge
+    doc.msRequestFullscreen();
+}
+window.onresize = function (event) {
+  var innerWidth = window.innerWidth;
+  innerWidth <= "1280"
+    ? (body.style.borderColor = "blue")
+    : (body.style.borderColor = "black");
+};
+
 /*마우스 올라가면 웹 페이지 이동하는 것 */
 
-$(function () {
+https: $(function () {
   /*첫번째 웹페이지 */
   $(".webpage01")
     .mouseenter(function () {

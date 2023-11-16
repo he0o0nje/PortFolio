@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 /*사이드 네비*/
 #menu {
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
@@ -66,11 +66,14 @@ body::-webkit-scrollbar {
 #menu > li:hover a span {
   color: #151515;
 }
+#menu > li.active {
+  background-color: #f5df7d;
+}
 #menu > li.active > a {
-  color: #000;
+  color: #151515;
 }
 #menu > li.active > a > span {
-  color: #fff;
+  color: #151515;
 }
 
 .container {
@@ -201,7 +204,7 @@ body::-webkit-scrollbar {
 }
 
 /* #homeleft_grid {
-  width: 70%;
+  width: 10%;
   height: 100%;
   position: relative;
 } */
@@ -215,6 +218,10 @@ body::-webkit-scrollbar {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.about_icon {
+  flex: 1;
 }
 
 .about_icon > li {
@@ -272,6 +279,13 @@ body::-webkit-scrollbar {
 #about h3 {
   color: #ebebe3;
   font-size: 16px;
+  font-weight: 500;
+}
+
+#about p {
+  margin-top: 10px;
+  color: #ebebe3;
+  font-size: 12px;
   font-weight: 300;
 }
 
@@ -442,17 +456,15 @@ body::-webkit-scrollbar {
   margin: 0 0 40px 0;
   padding: 10px;
   width: 28%;
-  background-color: #ffe684;
+  /* background-color: #ffe684; */
 }
 
-.section:nth-child(2) > .section_wrap > .explain > h1 {
-}
-.section:nth-child(3) > .section_wrap > .explain > h1 {
+/* .section:nth-child(3) > .section_wrap > .explain > h1 {
   background-color: #98cde6;
 }
 .section:nth-child(4) > .section_wrap > .explain > h1 {
+  background-color: #f5a9a9;
   background-color: #5e91c4;
-  /* background-color: #f5a9a9; */
   width: 24%;
 }
 .section:nth-child(5) > .section_wrap > .explain > h1 {
@@ -463,6 +475,9 @@ body::-webkit-scrollbar {
 }
 .section:nth-child(7) > .section_wrap > .explain > h1 {
   background-color: #00c8e2;
+  width: 36%;
+} */
+.section:nth-child(7) > .section_wrap > .explain > h1 {
   width: 36%;
 }
 
@@ -480,13 +495,13 @@ body::-webkit-scrollbar {
   /* color: #fa5858; */
 }
 .section:nth-child(5) > .section_wrap > .explain > h2 {
-  color: #151515;
+  color: #27687c;
 }
 .section:nth-child(6) > .section_wrap > .explain > h2 {
   color: #04b404;
 }
 .section:nth-child(7) > .section_wrap > .explain > h2 {
-  color: #000000;
+  color: #0d98c2;
 }
 
 .sub_title {
