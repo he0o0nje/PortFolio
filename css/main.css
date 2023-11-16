@@ -84,21 +84,18 @@ body::-webkit-scrollbar {
 .section:nth-child(2) {
   background: linear-gradient(
     to left,
-    #d9f3ff,
-    #f3fbff 35%,
-    #fafdff 75%,
-    #ffffff 100% /* #eeeeee,
-    #f5f5f5 35%,
-    #fafafa 75%,
-    #ffffff 100% */
+    #fff7d7,
+    #fffbeb 35%,
+    #fffef9 75%,
+    #ffffff 100%
   );
 }
 .section:nth-child(3) {
   background: linear-gradient(
     to left,
-    #fff7d7,
-    #fffbeb 35%,
-    #fffef9 75%,
+    #d9f3ff,
+    #f3fbff 35%,
+    #fafdff 75%,
     #ffffff 100%
   );
 }
@@ -108,7 +105,10 @@ body::-webkit-scrollbar {
     #d9f3ff,
     #f3fbff 35%,
     #fafdff 75%,
-    #ffffff 100%
+    #ffffff 100% /* #eeeeee,
+    #f5f5f5 35%,
+    #fafafa 75%,
+    #ffffff 100% */
   );
 }
 .section:nth-child(5) {
@@ -439,17 +439,17 @@ body::-webkit-scrollbar {
   margin: 0 0 40px 0;
   padding: 10px;
   width: 28%;
-  background-color: #629ee2;
+  background-color: #ffe684;
 }
 
 .section:nth-child(2) > .section_wrap > .explain > h1 {
-  width: 24%;
 }
 .section:nth-child(3) > .section_wrap > .explain > h1 {
-  background-color: #ffe684;
+  background-color: #98cde6;
 }
 .section:nth-child(4) > .section_wrap > .explain > h1 {
-  background-color: #98cde6;
+  background-color: #629ee2;
+  width: 24%;
 }
 .section:nth-child(5) > .section_wrap > .explain > h1 {
   background-color: #999;
@@ -464,15 +464,15 @@ body::-webkit-scrollbar {
 
 .explain > h2 {
   font-size: 40px;
-  color: #0058af;
+  color: #ffcd03;
   margin: 0 10px 10px 0;
 }
 
 .section:nth-child(3) > .section_wrap > .explain > h2 {
-  color: #ffcd03;
+  color: #33afe9;
 }
 .section:nth-child(4) > .section_wrap > .explain > h2 {
-  color: #33afe9;
+  color: #0058af;
 }
 .section:nth-child(5) > .section_wrap > .explain > h2 {
   color: #151515;
@@ -672,7 +672,7 @@ body::-webkit-scrollbar {
 
 .explain > .btn_6 {
   background-image: linear-gradient(to left, #002850 0%, #0051a1 100%);
-  width: 105px;
+  /* width: 105px; */
 }
 
 .btn_6:after {
