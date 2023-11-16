@@ -102,22 +102,25 @@ body::-webkit-scrollbar {
 .section:nth-child(4) {
   background: linear-gradient(
     to left,
-    #d9f3ff,
-    #f3fbff 35%,
-    #fafdff 75%,
-    #ffffff 100% /* #eeeeee,
-    #f5f5f5 35%,
-    #fafafa 75%,
+    #b4c7db,
+    #cdddec 35%,
+    #e8edf1 75%,
+    #ffffff 100% /* #fce9e9,
+    #faecec 35%,
+    #fff9f9 75%,
     #ffffff 100% */
   );
 }
 .section:nth-child(5) {
   background: linear-gradient(
     to left,
-    #eeeeee,
+    #c6dfe7,
+    #dce9ec 35%,
+    #f1f6f8 75%,
+    #ffffff 100% /* #dbdbdb,
     #f5f5f5 35%,
     #fafafa 75%,
-    #ffffff 100%
+    #ffffff 100% */
   );
 }
 .section:nth-child(6) {
@@ -448,11 +451,12 @@ body::-webkit-scrollbar {
   background-color: #98cde6;
 }
 .section:nth-child(4) > .section_wrap > .explain > h1 {
-  background-color: #629ee2;
+  background-color: #5e91c4;
+  /* background-color: #f5a9a9; */
   width: 24%;
 }
 .section:nth-child(5) > .section_wrap > .explain > h1 {
-  background-color: #999;
+  background-color: #488597;
 }
 .section:nth-child(6) > .section_wrap > .explain > h1 {
   background-color: #b6eca2;
@@ -472,7 +476,8 @@ body::-webkit-scrollbar {
   color: #33afe9;
 }
 .section:nth-child(4) > .section_wrap > .explain > h2 {
-  color: #0058af;
+  color: #164e86;
+  /* color: #fa5858; */
 }
 .section:nth-child(5) > .section_wrap > .explain > h2 {
   color: #151515;
@@ -671,7 +676,8 @@ body::-webkit-scrollbar {
 }
 
 .explain > .btn_6 {
-  background-image: linear-gradient(to left, #002850 0%, #0051a1 100%);
+  background-image: linear-gradient(to left, #002447 0%, #00478d 100%);
+  /* background-image: linear-gradient(to left, #8a0808 0%, #b40404 100%); */
   /* width: 105px; */
 }
 
