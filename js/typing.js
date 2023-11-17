@@ -18,7 +18,6 @@ $(function () {
       }
     }
     if (i === content.length) {
-      // i가 9일 때 clearInterval을 호출하여 멈춥니다.
       clearInterval(intervalId);
     }
   }
