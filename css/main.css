@@ -19,8 +19,22 @@ button:hover {
   cursor: pointer;
 }
 
+/* body::-webkit-scrollbar {
+  display: none;
+} */
 body::-webkit-scrollbar {
-  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #f1d03a;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  /* background: #ffd00050; */
+  background: #001464a1;
 }
 
 /*사이드 네비*/
