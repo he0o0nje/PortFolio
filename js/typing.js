@@ -3,7 +3,7 @@ $(function () {
   const text = document.querySelector(".title h2");
   const text2 = document.querySelector(".title p");
   const content =
-    "FRONT-END DEVELOPER\nJavascript / Typescript / React / React-Native / Redux / Ajax / Json / jQuery / Open API / Responsive Web / Node.js / Django / Python / MySQL / MongoDB / Tibero / Figma";
+    "FRONT-END DEVELOPER\nJavascript / Typescript / React / Redux / React-Native / Expo / Ajax / jQuery / Open API / Responsive Web / Node.js / MySQL / Tibero / Figma";
   let i = 0;
 
   function typing() {
